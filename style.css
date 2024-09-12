@@ -1,0 +1,154 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 450px;
+        }
+       
+        .sign{
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            position :relative ;
+            left:2%;
+            top:60%;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0e0e0e;
+            color: #8c8c8c;
+            border:0.4px solid gray;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        .sign-in-button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            background-color: #e50914;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 16px; 
+        }
+        .secondary-button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            background-color: #2d2d2d;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 16px;
+        }
+        .divider {
+            text-align: center;
+            color: #8c8c8c;
+            margin-bottom :15px;
+           display :flex ;
+           align-items :center ;
+           justify-content :center ;
+                 }
+        .forgot-password {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display :flex ;
+            Justify-content :center ;
+                                  }
+        .remember-me {
+            display: flex;
+            align-items: center;
+            margin: 16px 0;
+        }
+        .remember-me input {
+            margin-right: 8px;
+        }
+        .sign-up {
+            margin-top: 16px;
+            color: #8c8c8c;
+        }
+        .sign-up a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .captcha {
+            color: #8c8c8c;
+            font-size: 0.8rem;
+            margin-top: 27px;
+        }
+        .captcha a {
+            color: #0071eb;
+        }
+        .logo img{
+            object-fit:cover;
+            height :70px ;
+            width:auto;
+            margin 0;
+        }
+        input[type='checkbox'] {
+    accent-color: black;
+    background-color :white;
+}
+input[type='checkbox']:checked{
+    accent-background-color:white;
+}
+ .footer {
+ margin-top :90px ;
+            max-width: 800px;
+            border-top: 1px solid #333;      
+            padding-top :10px;   
+         }
+        h1 {
+            font-size: 17px;
+            font-weight: normal;
+            margin-bottom: 40px;
+            color: #a4a4a4;
+            position :relative ;  
+            left:0%;       
+                 }
+        .links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        a {
+            color: #a4a4a4;
+            font-size: 14px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .language-selector {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .language-selector::after {
+            content: "▼";
+            font-size: 10px;
+            margin-left: 8px;
+        }
+    
